@@ -1,0 +1,78 @@
+.create--post--container{
+    display: flex;
+    flex-direction:column;
+    padding-top: 30px;
+    background-color: rgba(92, 190, 255, 0.555)
+}
+.create--post--container > h2{
+    align-self:center;
+    display: block;
+    border-bottom: 1px solid black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+}
+.create--post--container > img{
+    align-self:center;
+    max-height: 400px;
+    max-width: 600px;
+}
+
+.create--post--text--input{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 0% 20%;
+
+}
+
+.create--post--input--container{
+    display: flex;
+    flex-direction: column;
+}
+.create--post--input--container > button {
+    align-self: center;
+width: 280px;
+}
+.edit--inputs{
+    align-self: center;
+}
+.preview--title{
+    overflow-wrap: break-word;
+    align-self: center;
+    margin: 0% 20%;
+}
+.preview--description{
+    overflow-wrap: break-word;
+    margin: 10px 10% ;
+    align-self: center;
+}
+.post--list{
+    display: flex;
+    flex-direction:column-reverse; 
+}
+.post--container{
+    display: flex;
+    flex-direction:column;
+    padding-top: 30px;
+}
+.post--container > img{
+    align-self: center;
+    max-height: 400px;
+    max-width: 600px;
+}
+.post--container > h1 {
+    overflow-wrap: break-word;
+    align-self: center;
+    margin: 0% 20%;
+}
+.post--container > p {
+    overflow-wrap: break-word;
+    margin: 10px 10% ;
+    align-self: center;
+}
+.post--container--buttons{
+    display: flex;
+    justify-content: right;
+    margin-right: 15%;
+}
