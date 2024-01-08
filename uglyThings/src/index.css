@@ -31,6 +31,7 @@
     flex-direction: column;
 }
 .create--post--input--container > button {
+    margin-top: 20px;
     align-self: center;
 width: 280px;
 }

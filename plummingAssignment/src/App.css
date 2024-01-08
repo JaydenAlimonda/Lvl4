@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+body{ 
+  background-image: url("https://static.vecteezy.com/system/resources/previews/024/140/709/non_2x/abstract-background-illustration-green-background-illustration-abstract-green-background-for-wallpaper-display-landing-page-banner-or-layout-simple-design-graphic-for-display-free-vector.jpg");
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+.navBar :nth-child(odd){
+  margin-top: -25px;
+}
+.navBar :nth-child(even){
+  margin-top: 25px;
+}
+.navLink   {
+  margin-left: 200px;
+  color: aliceblue;
+  font-size: 150%;
+  text-decoration:none;
+  font-style: italic;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT',  sans-serif;
+  
+}
+.Title{
+  font-size: 210%;
+  font-family: 'Gill Sans', 'Gill Sans MT',  sans-serif;
+  margin-top: 1%;
+}
+
+.Body{
+  margin: 10% 10% 0% 0%;
+  padding-right: 5%;
+  
+}

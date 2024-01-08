@@ -12,7 +12,8 @@ const CreatePost = () => {
     const [newUglyThing, setNewUglyThing] = useState({
     title:"" ,
     description:"" ,
-    imgUrl: ""
+    imgUrl: "",
+    email: ""
 })
 
 
@@ -32,7 +33,8 @@ function handleSubmit (e){
   setNewUglyThing({  
   title:"" ,
   description:"" ,
-  imgUrl: ""})
+  imgUrl: "",
+  email: ""})
 
 }
 
@@ -44,12 +46,14 @@ console.log(newUglyThing)
         Title  <input type="text" placeholder='Title' value={newUglyThing.title} name='title' onChange={handleChange}/>
         Description  <input type="text" placeholder='Description' value={newUglyThing.description} name='description' onChange={handleChange}/>
         IMG <input type="text" placeholder='ImgUrl' value={newUglyThing.imgUrl} name='imgUrl' onChange={handleChange}/>
+        email  <input type="text" placeholder='email' value={newUglyThing.email} name='email' onChange={handleChange}/>
+
       </div>
       <button>submit</button>
     </form>
     <hr />
     <h2>Preview </h2>
-    <img src={newUglyThing.imgUrl} className='preview--img'/>
+    <img src={newUglyThing.img} className='preview--img'/>
     <h1 className='preview--title'>{newUglyThing.title}</h1>
     <p className='preview--description'>{newUglyThing.description}</p>
   </div>
